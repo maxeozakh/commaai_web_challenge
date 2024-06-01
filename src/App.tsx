@@ -18,7 +18,8 @@ interface Segment {
 }
 
 function App() {
-  const token = import.meta.env.VITE_COMMA_JWT_TOKEN
+  // const token = import.meta.env.VITE_COMMA_JWT_TOKEN
+  const token = ""
   const dongleId = "96850532278bae3b"
 
   const colors = useMemo(
